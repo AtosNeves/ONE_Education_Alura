@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<canvas width="600" height="400"></canvas>
+
+<script>
+  
+	var tela = document.querySelector('canvas');
+	var pincel = tela.getContext('2d');
+	pincel.fillStyle = 'lightgray';
+	pincel.fillRect(0, 0, 600, 400);
+  
+	function desenhaCirculo(x,y,raio){
+		pincel.fillStyle="blue";
+		pincel.beginPath();
+		pincel.arc(x,y,raio,0,2*Math.PI);
+		pincel.fill();
+      
+	}
+ 
+	function limpaTela(){
+		pincel.clearRect(0,0,600,400);
+	}
+    var x = 20;
+    
+    var verificador = false;
+	function atualizaTela(){
+		if (x===599){
+            verificador=true;
+		}
+        if (x===1){
+            verificador=false;
+        }
+        
+        if (verificador===false) {
+            limpaTela();
+            desenhaCirculo(x, 20, 10);
+            x++;
+        }
+        if (verificador===true) {
+            limpaTela();
+            desenhaCirculo(x, 20, 10);
+            x--;
+        }
+        
+  
+  
+  
+	}
+	
+	setInterval(atualizaTela,2);
+ 
+ 
+	//
+	// limpaTela();
+	// desenhaCirculo(x, 20, 10);
+      
+
+</script>
+</body>
+</html>
