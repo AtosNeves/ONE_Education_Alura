@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Inserção do rodapé no página index.html">
+    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Iniciando a parte 3">
+      <change afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/contato.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/style-home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/produtos.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/produtos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,10 +39,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas" />
+      <recent name="$PROJECT_DIR$/Lógica de programação II" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,7 +61,8 @@
       <workItem from="1649545001298" duration="3676000" />
       <workItem from="1649600874653" duration="39000" />
       <workItem from="1649600914959" duration="2436000" />
-      <workItem from="1649607678718" duration="6735000" />
+      <workItem from="1649607678718" duration="6760000" />
+      <workItem from="1649677123850" duration="9503000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -80,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649616596222</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Iniciando a parte 3">
+      <created>1649642831343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649642831343</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +121,7 @@
     <MESSAGE value="Segundo commit" />
     <MESSAGE value="Finalização do curso" />
     <MESSAGE value="Inserção do rodapé no página index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserção do rodapé no página index.html" />
+    <MESSAGE value="Iniciando a parte 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iniciando a parte 3" />
   </component>
 </project>
