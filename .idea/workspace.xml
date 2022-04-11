@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Finalização do curso">
+    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Inserção do rodapé no página index.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5 e CSS3 parte 1: a primeira página da Web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 1: a primeira página da Web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5 e CSS3 parte 1: a primeira página da Web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 1: a primeira página da Web/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <workItem from="1649545001298" duration="3676000" />
       <workItem from="1649600874653" duration="39000" />
       <workItem from="1649600914959" duration="2436000" />
-      <workItem from="1649607678718" duration="5867000" />
+      <workItem from="1649607678718" duration="6735000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -75,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649616330422</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Inserção do rodapé no página index.html">
+      <created>1649616596222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649616596222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +101,7 @@
     <MESSAGE value="Primeiro Commit" />
     <MESSAGE value="Segundo commit" />
     <MESSAGE value="Finalização do curso" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalização do curso" />
+    <MESSAGE value="Inserção do rodapé no página index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserção do rodapé no página index.html" />
   </component>
 </project>
