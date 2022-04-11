@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Iniciando a parte 3">
-      <change afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/contato.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/style-home.css" afterDir="false" />
+    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Finalização do curso 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/produtos.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/produtos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,7 @@
       <workItem from="1649600874653" duration="39000" />
       <workItem from="1649600914959" duration="2436000" />
       <workItem from="1649607678718" duration="6760000" />
-      <workItem from="1649677123850" duration="9503000" />
+      <workItem from="1649677123850" duration="10186000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -99,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649642831343</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finalização do curso 3">
+      <created>1649708339460</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649708339460</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +124,7 @@
     <MESSAGE value="Finalização do curso" />
     <MESSAGE value="Inserção do rodapé no página index.html" />
     <MESSAGE value="Iniciando a parte 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniciando a parte 3" />
+    <MESSAGE value="Finalização do curso 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização do curso 3" />
   </component>
 </project>
