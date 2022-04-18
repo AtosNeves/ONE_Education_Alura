@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Continuação da parte 4">
+    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Normalização da sequência de diretórios">
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/cryptography.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/imagem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5 e CSS3 parte 4:  Avançando no CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 4:  Avançando no CSS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5 e CSS3 parte 4:  Avançando no CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5 e CSS3 parte 4:  Avançando no CSS/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -26,23 +31,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27a4jji7lorWsBgiuy80RPYSv1Q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Alura Challenge 1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Alura Challenge 1" />
       <recent name="$PROJECT_DIR$/HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas" />
       <recent name="$PROJECT_DIR$/Lógica de programação II" />
     </key>
@@ -64,6 +73,9 @@
       <workItem from="1649764664046" duration="6204000" />
       <workItem from="1649825087830" duration="1244000" />
       <workItem from="1649860488678" duration="2577000" />
+      <workItem from="1649934524222" duration="1842000" />
+      <workItem from="1650198967017" duration="15368000" />
+      <workItem from="1650234981264" duration="3441000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -121,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649860507059</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finalização da parte 4 - HTML5 e CSS3">
+      <created>1649934556611</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649934556611</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Normalização da sequência de diretórios">
+      <created>1649934811581</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649934811581</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +165,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Primeiro Commit" />
     <MESSAGE value="Segundo commit" />
     <MESSAGE value="Finalização do curso" />
@@ -147,6 +174,8 @@
     <MESSAGE value="Finalização do curso 3" />
     <MESSAGE value="Início da parte 4" />
     <MESSAGE value="Continuação da parte 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Continuação da parte 4" />
+    <MESSAGE value="Finalização da parte 4 - HTML5 e CSS3" />
+    <MESSAGE value="Normalização da sequência de diretórios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Normalização da sequência de diretórios" />
   </component>
 </project>
