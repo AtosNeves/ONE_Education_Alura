@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Refatoração Alura Challenge 1">
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/5785544.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/5785546.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/5785548.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/Fonts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/alura-depositphotos-bgremover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/alura.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/background.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/feitos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/image_processing20210228-30183-ebsr17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/style.css" afterDir="false" />
+    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Finalização Front-End Alura Challenge 1">
+      <change afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/principal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. HTML5 e CSS3 parte 4:  Avançando no CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/4. HTML5 e CSS3 parte 4:  Avançando no CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +20,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -81,7 +75,7 @@
       <workItem from="1649860488678" duration="2577000" />
       <workItem from="1649934524222" duration="1842000" />
       <workItem from="1650198967017" duration="15368000" />
-      <workItem from="1650234981264" duration="23248000" />
+      <workItem from="1650234981264" duration="30030000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -174,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650240181054</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Finalização Front-End Alura Challenge 1">
+      <created>1650302080182</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650302080182</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +206,7 @@
     <MESSAGE value="Normalização da sequência de diretórios" />
     <MESSAGE value="Inicio Alura Challenge 1" />
     <MESSAGE value="Refatoração Alura Challenge 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração Alura Challenge 1" />
+    <MESSAGE value="Finalização Front-End Alura Challenge 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização Front-End Alura Challenge 1" />
   </component>
 </project>
