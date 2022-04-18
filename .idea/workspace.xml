@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Normalização da sequência de diretórios">
+    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment="Inicio Alura Challenge 1">
       <change afterPath="$PROJECT_DIR$/Alura Challenge 1/background.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Alura Challenge 1/background.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Alura Challenge 1/cryptography.png" afterDir="false" />
@@ -75,7 +75,7 @@
       <workItem from="1649860488678" duration="2577000" />
       <workItem from="1649934524222" duration="1842000" />
       <workItem from="1650198967017" duration="15368000" />
-      <workItem from="1650234981264" duration="3441000" />
+      <workItem from="1650234981264" duration="3905000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649934811581</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Inicio Alura Challenge 1">
+      <created>1650240129956</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650240129956</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +183,7 @@
     <MESSAGE value="Continuação da parte 4" />
     <MESSAGE value="Finalização da parte 4 - HTML5 e CSS3" />
     <MESSAGE value="Normalização da sequência de diretórios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Normalização da sequência de diretórios" />
+    <MESSAGE value="Inicio Alura Challenge 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio Alura Challenge 1" />
   </component>
 </project>
