@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +68,7 @@
       <workItem from="1649934524222" duration="1842000" />
       <workItem from="1650198967017" duration="15368000" />
       <workItem from="1650234981264" duration="50772000" />
-      <workItem from="1650394717335" duration="6111000" />
+      <workItem from="1650394717335" duration="6790000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -200,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650396068789</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary=".">
+      <created>1650400919006</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650400919006</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
