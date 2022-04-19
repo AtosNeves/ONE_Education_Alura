@@ -181,7 +181,7 @@ textarea:focus::placeholder{
     left: 0;
     width: 630px;
     height: 450px;
-    background: rgba(48,52,58,65) url("images/feitos.png")  no-repeat center;
+    background: rgba(48,52,58,65) url("feitos.png") no-repeat center;
     font-weight: bolder;
     background-blend-mode: unset;
     transition: background 1s;
