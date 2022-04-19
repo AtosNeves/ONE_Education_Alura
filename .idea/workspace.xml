@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbed8a51-9f59-4035-9dcf-996f3587be51" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/5785548.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +67,7 @@
       <workItem from="1649934524222" duration="1842000" />
       <workItem from="1650198967017" duration="15368000" />
       <workItem from="1650234981264" duration="50772000" />
-      <workItem from="1650394717335" duration="543000" />
+      <workItem from="1650394717335" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -186,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650395033307</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=".">
+      <created>1650395309786</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650395309786</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
