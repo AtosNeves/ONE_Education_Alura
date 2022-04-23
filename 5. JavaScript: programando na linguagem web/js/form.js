@@ -8,13 +8,6 @@ botaoAdicionar.addEventListener("click",setInfo);
 function setInfo(event){
     event.preventDefault();
 
-
-
-
-
-
-
-
     var form = document.querySelector("#form-adiciona");
 
     var nome = form.nome.value;
@@ -31,11 +24,15 @@ function setInfo(event){
     var gorduraTd = document.createElement("td")
     var imcTd = document.createElement("td");
 
+
+
     nomeTd.textContent=nome;
     pesoTd.textContent = peso;
     alturaTd.textContent = altura;
     gorduraTd.textContent = gordura;
     imcTd.textContent = calculaImc(peso,altura);
+
+
 
     pacienteTr.appendChild(nomeTd);
     pacienteTr.appendChild(pesoTd);

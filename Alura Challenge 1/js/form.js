@@ -2,18 +2,30 @@
 
 
 
-var botaoPegarPalavra = document.querySelector("#pegar-palavra");
-botaoAdicionar.addEventListener("click",setInfo);
+function criptografar(entrada){
 
-function setInfo(event) {
-    event.preventDefault();
-    var palavraForm = document.querySelector("#entrada");
+    var sai = Array.from(entrada);
 
-    var palavra = palavraForm.textContent;
+    for (let i = 0; i < sai.length; i++) {
 
-    console.log(palavra);
+        if (sai[i]=='a'){
+            sai[i]="ai";
+        }
+        if (sai[i]=='e'){
+            sai[i]="enter";
+        }
+        if (sai[i]=='i'){
+            sai[i]="imes";
+        }
+        if (sai[i]=='o'){
+            sai[i]="ober";
+        }
+        if (sai[i]=='u'){
+            sai[i]="ufat";
+        }
+
+
+    }
+    return sai;
+
 }
-
-
-
-

@@ -2,6 +2,11 @@ var titulo = document.querySelector(".titulo");
 
 titulo.textContent = "Aparecida Nutri";
 
+
+
+
+
+
 var paciente = document.querySelectorAll(".paciente");
 
 for (let i = 0; i < paciente.length; i++) {

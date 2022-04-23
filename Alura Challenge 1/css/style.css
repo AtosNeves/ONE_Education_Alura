@@ -3,7 +3,7 @@ header{
     position: relative;
     margin-bottom: 10px;
 
-    width: 100%;
+
     height: 200px;
 }
 
@@ -11,6 +11,7 @@ nav{
     position: absolute;
     top: 70px;
     right: 0;
+
 }
 a,a:visited{
     text-decoration: none;
@@ -57,9 +58,9 @@ body{
 .centro{
     overflow: hidden;
 
-    position:absolute;
-    width: 100%;
-    height: 700px;
+    position: relative;
+
+    height:770px;
     margin: 0 auto;
     box-sizing: border-box;
 
@@ -69,9 +70,9 @@ body{
 
 
 textarea{
-    padding-top: 19px;
-    position: absolute;
-    margin:50px  40px;
+    padding-top: 20px;
+    position: relative;
+    margin:20px  40px;
     resize: none;
     padding-right: 190px;
     vertical-align: top;
@@ -96,9 +97,9 @@ textarea:focus::placeholder{
 .botoes{
     display: inline-block ;
     position: absolute;
-    top: 450px;
-    width: 800px;
-    left:120px;
+    top: 400px;
+
+    left: 90px;
 
     margin: 30px 30px;
     padding: 10px 10px;
@@ -140,26 +141,26 @@ textarea:focus::placeholder{
 
 }
 #entrada:focus::placeholder,#saida:focus::placeholder,#entrada:hover::placeholder{
-    color: white;
+    color: transparent;
     transition-delay: 1s;
 }
 #entrada:hover,#entrada:focus{
     transform: scale(105%);
 
 
-    background-color: #151515 ;
+    background-color: #3B444B ;
 
 }
 
 #entrada{
-    padding: 50px 50px;
-    background-color: transparent;
+    padding: 60px 30px;
+
     margin-left: 30px;
     transform-style: initial ;
     transition-duration: 1s;
+    background-color: transparent;
+    color: white;
 
-
-    left: 0;
 
 }
 #entrada::placeholder{
@@ -179,16 +180,18 @@ textarea:focus::placeholder{
 #saida{
     padding: 50px 70px;
     left: 0;
-    width: 630px;
+    width: 430px;
     height: 450px;
-    background: rgba(48,52,58,65) url("feitos.png") no-repeat center;
+    background: black  no-repeat center;
     font-weight: bolder;
     background-blend-mode: unset;
     transition: background 1s;
+
 }
-#saida:focus,#saida:hover{
-    background-color: rgba(48,52,58,100);
-    background-blend-mode: overlay  ;
+.div-saida:focus,.div-saida:hover{
+    background-color: #3B444B;
+    background-blend-mode: overlay;
+    transform: scale(102%);
 
 }
 
@@ -196,21 +199,59 @@ textarea:focus::placeholder{
     display: inline-block;
     vertical-align: top;
     position: relative;
-    left:150px;
+    left:100px;
     overflow: hidden;
-    width: 870px;
+    width: 800px;
     height: 500px;
 
     margin-bottom: 10px;
 }
-.div-saida{
+.div-saida {
+    overflow-y: auto;
+    overflow-wrap: break-word;
     display: inline-block;
-    position: relative;
-    left:150px;
-    overflow: hidden;
-    width: 870px;
+    position:absolute;
+    padding: 40px 60px;
+    left: 1050px;
+    top: 5px;
+    width: 770px;
     height: 650px;
 
+    background: #22272c no-repeat center;
+    background-blend-mode: soft-light;
+    box-sizing: border-box;
     margin-bottom: 10px;
+    border-radius: 20px;
 
+    transition: 0.5s;
+
+
+}
+.h1{
+    border-width: 2px;
+    border-color:red;
+    font-family: 'Heebo', sans-serif;
+    font-size: x-large;
+    color:white ;
+    max-width: 750px;
+    font-palette: light;
+
+}
+
+::-webkit-scrollbar {
+    background-color: #666666;
+    border-radius: 10px 10px;
+    scroll-behavior: auto;
+
+
+}
+::-webkit-scrollbar-track-piece  {
+    width: 5px;
+    height: 5px;
+    background-color: #dddddd;
+    -webkit-border-radius: 1px;
+}
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #666;
+    -webkit-border-radius: 6px;
 }

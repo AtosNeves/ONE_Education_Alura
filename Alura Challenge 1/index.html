@@ -3,7 +3,8 @@
 <head>
       <meta charset = "UTF-8">
       
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
       
       <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/style.css">
@@ -30,27 +31,32 @@
 <body>
 
 <main>
-    <div class="centro">
-      <div class="div-entrada">
+      <div class="centro">
+	    <form id="form-palavra">
+	    <div class="div-entrada">
 	    
-      
-	    <label for = "entrada"></label>
-	    <textarea cols="50" rows="8" id="entrada"
-		      placeholder="Digite apenas letras minúsculas"></textarea>
+		  
+		  <label for = "entrada"></label>
+		  <textarea cols="50" rows="8" id="entrada" name="palavra"
+			    placeholder="Digite apenas letras minúsculas"></textarea>
 		 
 	    
 	    
-      </div>
+	    </div>
      
-      <div class="div-saida">
-	    <label for = "saida"></label>
-	    <textarea cols="40" rows="15" id="saida" placeholder="Sem mensagens criptografadas ..."></textarea>
+		  <div class="div-saida">
+			
+		  </div>
+		  <div class="botoes">
+			<button class="botao" id="pegar-palavra" type="submit">Criptografar</button>
+			<button class="botao" id="retorno-palavra" type="submit">Descriptografar</button>
+		  </div>
+	    </form>
       </div>
-      <div class="botoes">
-	    <button class="botao" id="pegar-palavra">Criptografar</button>
-	    <button class="botao">Descriptografar</button>
-      </div>
-    </div>
+
 </main>
+
+<script src="js/criptografia.js"></script>
+<script src="js/descriptografia.js"></script>
 </body>
 </html>
