@@ -1,0 +1,293 @@
+
+
+
+header {
+    background-size:auto ;
+    background: url("../img/back.jpg") center center fixed no-repeat ;
+    z-index: 0;
+    position:relative;
+    width: 100%;
+    height: 1008px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+nav{
+    position: relative;
+    float: right;
+    width: 600px;
+
+
+
+
+}
+
+
+#banner{
+z-index: -1;
+}
+ul{
+    display: inline-block;
+    float: right;
+    width: 600px;
+
+
+}
+ul li {
+
+    font-family: 'Cutive Mono', monospace;
+    margin: 30px 2%;
+    display: inline-block;
+    float: right;
+    color: #e3dfdf;
+    padding-left: 20px;
+    transition: color 1s;
+    z-index: 1;
+    font-size: large;
+
+}
+li:hover{
+
+    color: white;
+    font-palette: dark;
+
+    cursor: pointer;
+
+
+
+
+
+}
+li:first-child{
+    padding-right: 30px;
+}
+
+/*-----------------------*/
+#banner{
+    width: 100%;
+
+    position:absolute;
+    height: 928px;
+}
+#atos{
+    position: relative;
+    margin-top: 20%;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 25px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+
+}
+#atosSub{
+    position: relative;
+    margin-top: 4%;
+    font-family: 'Rajdhani', sans-serif;
+    color: lightgray;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+.entrada{
+    position:relative;
+
+    width:90%;
+    height: 500px;
+    margin: 0 auto;
+
+
+
+
+}
+.portfolio-div{
+    position:relative;
+    width:100%;
+    height: 500px;
+    margin: 0 auto;
+
+
+
+
+}
+.linha{
+    width: 90%;
+    margin: 0 auto;
+}
+.titulo-sec{
+    letter-spacing: 3px;
+    position: relative;
+    left: 5%;
+    padding-top: 5%;
+    margin-bottom: 1%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2em;
+}
+#titulo-sec{
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.portfolio-texto{
+
+    display: inline-flex;
+    vertical-align: center;
+    width: 28%;
+    overflow-wrap: anywhere;
+    padding: 2% 0;
+    word-spacing:-2px;
+    margin-right: 5%;
+    margin-top: 20px;
+    right: 90px;
+    margin-bottom: 5%;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw ;
+    text-align: left;
+    height: 50%;
+    }
+.blocos{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.portfolios-bloco{
+    width: 100%;
+}
+#efeito{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 2vw;
+    text-align: left;
+
+}
+
+hr{
+    background: gray;
+    top: 2%;
+}
+
+.blocos2{
+
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.portfolios{
+
+    position: center;
+    display: inline-block;
+    vertical-align: center;
+    width: 31%;
+    overflow-wrap: anywhere;
+    padding: 8% 1%;
+    margin-right: 0.01%;
+
+    right: 90px;
+
+    background: dimgray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw ;
+    text-align: left;
+    height: 10%;
+}
+#uri{
+
+    background: url("http://2.bp.blogspot.com/-NUevUKTYhdc/VLrx4-PbbhI/AAAAAAAABi4/Fjxx1_1q_hU/s1600/URI.png") white center no-repeat ;
+
+
+    transition: 1s;
+
+}
+
+
+.portfolios:hover{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.60);
+    border-radius: 15px;
+    transition: 1.5s;
+
+}
+
+#encriptador{
+    background: url("../img/portfolio2.png")  center no-repeat ;
+    background-size: cover;
+
+
+}
+
+.icones{
+
+    width: 90%;
+    height: 150px;
+    margin: 50px auto;
+
+}
+
+#spring{
+
+    width: 10%;
+    height: 100%;
+    background: forestgreen;
+    top: 50%;
+    background: url("../img/spring.png");
+    background-size: contain;
+    display: inline-block;
+    margin-right: 2%;
+}
+#java{
+    width: 10%;
+    height: 100%;
+    background: forestgreen;
+    top: 50%;
+    background: url("../img/java.png");
+    background-size: contain ;
+    display: inline-block;
+    margin-right: 2%;
+
+
+}
+
+#git{
+    width: 10%;
+    height: 100%;
+    background: forestgreen;
+    top: 50%;
+    background: url("../img/git.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 2%;
+}
+footer{
+    width: 100%;
+    background: url("https://www.dwlaw.ca/wp-content/uploads/2015/12/footer-background.jpg") no-repeat;
+    height: 300px;
+
+
+}
+
+@media screen and (max-width: 600px) {
+    footer, header{
+        position:relative;
+        height: 500px;
+        width: 100%;
+        margin-bottom: 5px;
+
+    }
+    .portfolio-texto{
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    .blocos{
+        height: 50px;
+
+    }
+    hr{
+        position: relative;
+    }
+}

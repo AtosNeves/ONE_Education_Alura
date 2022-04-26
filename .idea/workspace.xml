@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Finalização Front">
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/js/criptografia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/js/descriptografia.js" afterDir="false" />
+    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Finalização Projeto">
+      <change afterPath="$PROJECT_DIR$/Landing teste/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/git.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/portfolio2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/spring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/calcula-imc.js" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/calcula-imc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alura Challenge 1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/feitos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/js/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -92,7 +93,12 @@
       <workItem from="1650234981264" duration="50772000" />
       <workItem from="1650394717335" duration="15443000" />
       <workItem from="1650450940066" duration="26331000" />
-      <workItem from="1650674426748" duration="806000" />
+      <workItem from="1650674426748" duration="12167000" />
+      <workItem from="1650723532602" duration="5920000" />
+      <workItem from="1650810278289" duration="7108000" />
+      <workItem from="1650887124987" duration="632000" />
+      <workItem from="1650889036711" duration="3237000" />
+      <workItem from="1650900795906" duration="12165000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -241,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650403485431</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Finalização Projeto">
+      <created>1650675243951</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650675243952</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +289,7 @@
     <MESSAGE value="Inicialização do curso de JavaScript" />
     <MESSAGE value="." />
     <MESSAGE value="Finalização Front" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalização Front" />
+    <MESSAGE value="Finalização Projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização Projeto" />
   </component>
 </project>

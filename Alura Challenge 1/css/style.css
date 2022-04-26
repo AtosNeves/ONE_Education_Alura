@@ -52,15 +52,17 @@ h1 img{
 
 
 body{
-
+    
+    overflow: auto ;
     background: rgba(48,52,58,65);
+
 }
 .centro{
-    overflow: hidden;
 
+    height: auto;
     position: relative;
 
-    height:770px;
+
     margin: 0 auto;
     box-sizing: border-box;
 
@@ -202,7 +204,7 @@ textarea:focus::placeholder{
     left:100px;
     overflow: hidden;
     width: 800px;
-    height: 500px;
+    height: auto;
 
     margin-bottom: 10px;
 }
@@ -254,4 +256,8 @@ textarea:focus::placeholder{
 ::-webkit-scrollbar-thumb:vertical {
     background-color: #666;
     -webkit-border-radius: 6px;
+}
+
+@media{
+
 }
