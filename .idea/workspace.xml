@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Finalização Projeto">
-      <change afterPath="$PROJECT_DIR$/Landing teste/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing teste/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing teste/img/back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing teste/img/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing teste/img/git.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing teste/img/java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing teste/img/portfolio2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing teste/img/spring.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing teste/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Inicialização da página pessoal">
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/Class_Diagram0.asta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/MAPA_MODELAGEM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/arroba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/casa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/chamada-de-entrada.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing teste/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Landing teste/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing teste/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Landing teste/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +95,7 @@
       <workItem from="1650887124987" duration="632000" />
       <workItem from="1650889036711" duration="3237000" />
       <workItem from="1650900795906" duration="12165000" />
+      <workItem from="1650970207026" duration="16790000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -254,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650675243952</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Inicialização da página pessoal">
+      <created>1650970263327</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650970263327</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +294,7 @@
     <MESSAGE value="." />
     <MESSAGE value="Finalização Front" />
     <MESSAGE value="Finalização Projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalização Projeto" />
+    <MESSAGE value="Inicialização da página pessoal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicialização da página pessoal" />
   </component>
 </project>
