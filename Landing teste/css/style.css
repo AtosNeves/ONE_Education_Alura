@@ -15,12 +15,15 @@ header {
     background-size: cover;
 }
 nav{
-    position: relative;
-    float: right;
-    width: 600px;
+    position: fixed;
+    float: left;
+    width: 100%;
+    background: transparent;
+    height: 40px;
+    z-index: 900;
 
-
-
+}
+nav:{
 
 }
 
@@ -31,14 +34,14 @@ nav{
 ul{
     display: inline-block;
     float: right;
-    width: 600px;
+    width: 1000px;
 
 
 }
 ul li {
 
     font-family: 'Cutive Mono', monospace;
-    margin: 30px 2%;
+    margin: 13px 2%;
     display: inline-block;
     float: right;
     color: #e3dfdf;
@@ -259,50 +262,82 @@ hr{
 }
 .middle{
     width: 100%;
-    height: 300px;
-    background: blue;
-}
-.icones{
+    height: 500px;
+    background: url("../img/1234.jpg")  fixed center;
 
+
+
+}
+#quote{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top:28%;
+    left:14%;
+
+
+}
+
+#texto-quote{
+    width: 1300px;
+    height: 20%;
+
+    margin: 5% auto 0;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    color: white;
+}
+.einstein{
+    top: 5%;
+    left: 70%;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    font-size: 30px;
+
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+
+.icones{
+    background: red;
     width: 90%;
-    height: 150px;
+    height: 100px;
     margin: 50px auto;
 
+}
+.icons{
+    width: 10%;
+    height: 100%;
+    background: forestgreen no-repeat ;
+    top: 50%;
+
+    background-size: contain;
+    display: inline-block;
+    margin-right: 2%;
 }
 
 #spring{
 
-    width: 10%;
-    height: 100%;
-    background: forestgreen;
-    top: 50%;
-    background: url("../img/spring.png");
+
+    background: url("../img/spring.png")  no-repeat;
     background-size: contain;
-    display: inline-block;
-    margin-right: 2%;
+
 }
 #java{
-    width: 10%;
-    height: 100%;
-    background: forestgreen;
-    top: 50%;
-    background: url("../img/java.png");
-    background-size: contain ;
-    display: inline-block;
-    margin-right: 2%;
 
+    background: url("../img/java.png")no-repeat;
+    background-size: contain ;
 
 }
 
 #git{
-    width: 10%;
-    height: 100%;
-    background: forestgreen;
-    top: 50%;
+
     background: url("../img/git.png") no-repeat;
     background-size: contain;
-    display: inline-block;
-    margin-right: 2%;
+
 }
 .contato{
     position: relative;
@@ -348,6 +383,10 @@ hr{
     margin: 0 auto;
     overflow: clip;
 
+}
+#arroba{
+    position: relative;
+    top: 8px;
 }
 .contatos-icones{
     padding: 20px 20px;
@@ -469,11 +508,10 @@ textarea::placeholder{
 }
 
 
-
 footer{
 
     width: 100%;
-    background: url("https://www.dwlaw.ca/wp-content/uploads/2015/12/footer-background.jpg") center no-repeat;
+    background: url("https://www.dwlaw.ca/wp-content/uploads/2015/12/footer-background.jpg") fixed center;
     height: 300px;
     position: relative;
 
