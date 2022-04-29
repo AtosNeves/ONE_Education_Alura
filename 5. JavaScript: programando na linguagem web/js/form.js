@@ -9,13 +9,9 @@ function setInfo(event){
     event.preventDefault();
 
     var form = document.querySelector("#form-adiciona");
+    //Extraindo informações do form
 
-    var nome = form.nome.value;
-    var peso = form.peso.value;
-    var altura = form.altura.value;
-    var gordura = form.gordura.value;
-    console.log(nome,peso,altura,gordura)
-
+    //Cria tr e td do paciente
     var pacienteTr = document.createElement("tr");
 
     var nomeTd = document.createElement("td")
@@ -40,11 +36,20 @@ function setInfo(event){
     pacienteTr.appendChild(gorduraTd);
     pacienteTr.appendChild(imcTd);
 
+    //Adcionando o paciente na tabela
     var tabela = document.querySelector("#tabela-pacientes");
 
     tabela.appendChild(pacienteTr);
 
 
 
+
+}
+function obtemPacienteDoFormulario(form){
+    var nome = form.nome.value;
+    var peso = form.peso.value;
+    var altura = form.altura.value;
+    var gordura = form.gordura.value;
+    console.log(nome,peso,altura,gordura)
 
 }

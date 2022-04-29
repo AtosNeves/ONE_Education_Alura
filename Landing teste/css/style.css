@@ -4,7 +4,7 @@
 header {
     background-size:auto ;
     background: url("../img/back.jpg") center center fixed no-repeat ;
-    z-index: 0;
+    z-index: 100;
     position:relative;
     width: 100%;
     height: 1008px;
@@ -16,14 +16,14 @@ header {
 }
 nav{
     position: fixed;
-    float: left;
+
     width: 100%;
-    background: transparent;
+    background: #000000;
     height: 40px;
-    z-index: 900;
+    z-index: 100;
 
 }
-nav:{
+nav{
 
 }
 
@@ -188,6 +188,7 @@ li:first-child{
 }
 .portfolios-bloco{
     width: 100%;
+    z-index: 0;
 }
 #efeito{
     font-family: 'Cutive Mono', monospace;
@@ -210,6 +211,7 @@ hr{
     top: 2%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+    z-index: 0;
 }
 
 .blocos2{
@@ -295,13 +297,15 @@ hr{
     height: 30px;
     position: relative;
     font-size: 30px;
-
+    z-index: 0;
     font-family: 'Quicksand', sans-serif;
     color: white;
 }
 
 
 .icones{
+    position: relative;
+    z-index: -1;
     background: red;
     width: 90%;
     height: 100px;
@@ -460,9 +464,9 @@ hr{
     border: 1px solid lightgrey ;
 }
 .message{
+    background: red;
 
-
-    height: 200px;
+    height: 150px;
     width: 49%;
     display: inline-block;
 
@@ -475,7 +479,7 @@ textarea{
     margin-top: 2%;
     margin-left: 1%;
     width: 85%;
-    height: 31%;
+    height: 42%;
     overflow-y: auto;
     max-height: content-box;
     border: 1px solid lightgrey ;
@@ -507,6 +511,12 @@ textarea::placeholder{
 
 }
 
+.botao{
+    position: relative;
+    left: 365px;
+    width: 150px;
+    height: 40px;
+}
 
 footer{
 
