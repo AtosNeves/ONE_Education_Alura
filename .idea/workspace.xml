@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Continuação da página pessoal">
-      <change afterPath="$PROJECT_DIR$/Landing teste/img/icones footer/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/remover-paciente.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/calcula-imc.js" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/calcula-imc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Landing teste/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Landing teste/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Landing teste/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Landing teste/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -100,7 +101,8 @@
       <workItem from="1651154950705" duration="51000" />
       <workItem from="1651155010502" duration="74000" />
       <workItem from="1651242249858" duration="6324000" />
-      <workItem from="1651318226745" duration="2804000" />
+      <workItem from="1651318226745" duration="7110000" />
+      <workItem from="1651325348112" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -298,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651242448389</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Continuação da página pessoal">
+      <created>1651321195984</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1651321195984</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
