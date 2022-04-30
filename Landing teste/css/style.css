@@ -1,6 +1,22 @@
 
+::-webkit-scrollbar {
+    width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: gray;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 header {
     background-size:auto ;
     background: url("../img/back.jpg") center center fixed no-repeat ;
@@ -274,14 +290,14 @@ hr{
     position: relative;
     width: 70px;
     height: 70px;
-    top:28%;
-    left:14%;
+    top:22%;
+    left:13%;
 
 
 }
 
 #texto-quote{
-    width: 1300px;
+    width: 70%;
     height: 20%;
 
     margin: 5% auto 0;
@@ -306,7 +322,7 @@ hr{
 .icones{
     position: relative;
     z-index: -1;
-    background: red;
+
     width: 90%;
     height: 100px;
     margin: 50px auto;
@@ -464,27 +480,29 @@ hr{
     border: 1px solid lightgrey ;
 }
 .message{
-    background: red;
 
-    height: 150px;
-    width: 49%;
-    display: inline-block;
+
+    height: 190px;
+    width:43%;
+
+
+
 
 
 
 
 }
 textarea{
+    position: relative;
     resize: none;
     margin-top: 2%;
-    margin-left: 1%;
-    width: 85%;
-    height: 42%;
+    margin-right: 0;
+    width: 93% ;
+    height: 33%;
     overflow-y: auto;
-    max-height: content-box;
+
     border: 1px solid lightgrey ;
     padding: 15px 15px;
-
 
 
 }
@@ -513,15 +531,24 @@ textarea::placeholder{
 
 .botao{
     position: relative;
-    left: 365px;
-    width: 150px;
+    top: 16px;
+    float: right;
+    width: 200px;
     height: 40px;
+    background-color: #22272c;
+    border-width:0;
+    color: gainsboro  ;
+}
+.botao:hover{
+   background:gray;
+    transition: 0.5s;
 }
 
 footer{
 
     width: 100%;
-    background: url("https://www.dwlaw.ca/wp-content/uploads/2015/12/footer-background.jpg") fixed center;
+    background: url("https://img.freepik.com/free-photo/calathea-orbifolia-natural-leaves-background_53876-98363.jpg?t=st=1651319379~exp=1651319979~hmac=e944cfa16e16855469547a33f91ab269e5748867cf1ece3902df59dd8ffa5950&w=1380") no-repeat;
+    background-size: cover ;
     height: 300px;
     position: relative;
 
@@ -530,6 +557,34 @@ footer{
 
 }
 
+footer ul{
+    display: inline-flex;
+
+    position: relative;
+    margin: auto auto;
+    top: 50%;
+    float: left;
+    height: content-box;
+    background: red;
+}
+footer li{
+
+    height: 20px;
+}
+
+#instagram-footer{
+    background: url("https://img.icons8.com/ios-glyphs/344/ffffff/instagram-new.png") no-repeat;
+    background-size: contain;
+}
+
+#linkedin-footer{
+    background: url("https://img.icons8.com/ios-glyphs/344/ffffff/linkedin.png") no-repeat;
+    background-size: contain;
+}
+#github-footer{
+    background: url("https://img.icons8.com/ios-glyphs/344/ffffff/linkedin.png") no-repeat;
+    background-size: contain;
+}
 @media screen and (max-width: 600px) {
     footer, header{
         position:relative;

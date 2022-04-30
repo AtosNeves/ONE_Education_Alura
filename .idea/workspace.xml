@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Continuação da página pessoal">
-      <change afterPath="$PROJECT_DIR$/Landing teste/img/92da9db776ba66d2926dca328b4dca1a51a244365a87712439a1ff76d8cad920e88325db0ae0ca8da71bdfce8e8166d2c0c68431bcd2ac5d26f4562dcefcf4ac.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing teste/img/icones footer/instagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/calcula-imc.js" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/calcula-imc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Landing teste/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Landing teste/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Landing teste/img/Class_Diagram0.asta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Landing teste/img/MAPA_MODELAGEM.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Landing teste/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Landing teste/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +44,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Alura Challenge 1/css" />
@@ -102,6 +99,8 @@
       <workItem from="1651154017353" duration="218000" />
       <workItem from="1651154950705" duration="51000" />
       <workItem from="1651155010502" duration="74000" />
+      <workItem from="1651242249858" duration="6324000" />
+      <workItem from="1651318226745" duration="2804000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -278,7 +277,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651098405820</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Continuação da página pessoal">
+      <created>1651242317810</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1651242317810</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Continuação da página pessoal">
+      <created>1651242378555</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1651242378555</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Continuação da página pessoal">
+      <created>1651242448389</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1651242448389</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
