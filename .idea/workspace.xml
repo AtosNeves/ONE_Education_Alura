@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Continuação da página pessoal">
-      <change afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/remover-paciente.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/css/index.css" afterDir="false" />
+    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="JavaScript">
       <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/calcula-imc.js" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/calcula-imc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/5. JavaScript: programando na linguagem web/js/form.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +98,7 @@
       <workItem from="1651242249858" duration="6324000" />
       <workItem from="1651318226745" duration="7110000" />
       <workItem from="1651325348112" duration="724000" />
+      <workItem from="1651326081613" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -307,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651321195984</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="JavaScript">
+      <created>1651326138309</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1651326138309</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +348,7 @@
     <MESSAGE value="Finalização Projeto" />
     <MESSAGE value="Inicialização da página pessoal" />
     <MESSAGE value="Continuação da página pessoal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Continuação da página pessoal" />
+    <MESSAGE value="JavaScript" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript" />
   </component>
 </project>
