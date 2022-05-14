@@ -1,0 +1,107 @@
+.forca-div{
+    position: relative;
+    width: 90%;
+    height: 400px;
+    background: url("../images/forca.svg") no-repeat #16161a 10%;
+    background-size: contain;
+    margin: 0 auto;
+    border-radius: 20px;
+
+
+}
+
+.palavra{
+    position: relative;
+    width: 53%;
+    height: 85%;
+    background: #0c8cd3;
+    left: 45%;
+    top: 7%;
+
+
+}
+.letras{
+    position: relative;
+    top:5%;
+    left: 1%;
+    width: 30%;
+    height: 90%;
+    background: #555555;
+
+
+}
+
+.teclado{
+    width: 75%;
+    height: 250px;
+    margin: 20px auto;
+    right: 200px;
+    display:block;
+    justify-content: center;
+    padding-left: 65px;
+
+}
+.alfabeto{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 60px;
+
+    margin: 10px 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px ;
+
+}
+.botao-letra{
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    background:#ff8906;
+    border-width: 0;
+    color:#fffffe;
+    border-radius: 10px;
+}
+.botao-letra:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    border-bottom: 10px;
+    border-color: red;
+}
+.botao-letra:focus{
+    transition: botao-clicado 1.5s;
+    animation: botao-clicado  .3s forwards;
+}
+
+@keyframes botao-clicado {
+
+    from {
+
+    }
+    to {
+        transform: scale(-2.5);
+        background: #22272c;
+    }
+
+}
+.certo{
+    background:green;
+    color: white;
+}
+.errado{
+    background:red;
+    color: black;
+}
+
+.clicado {
+    /*background: #22272c;*/
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    border-width: 0;
+
+    border-radius: 10px;
+}

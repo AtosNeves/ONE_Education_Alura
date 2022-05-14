@@ -1,4 +1,6 @@
-
+html{
+    overflow: hidden;
+}
 header{
     position: relative;
     margin-bottom: 10px;
@@ -8,9 +10,12 @@ header{
 }
 
 nav{
-    position: absolute;
+    position: relative;
     top: 70px;
     right: 0;
+    float: right;
+    width: 400px;
+
 
 }
 a,a:visited{
@@ -21,7 +26,7 @@ nav li{
     font-family: 'Lato', sans-serif;
     font-size: 22px;
     margin: 22px;
-    padding-right: 110px;
+    padding-right: 5%;
 
 }
 
@@ -46,20 +51,24 @@ h1 img{
     position: absolute;
     top: 40px;
     width:100px;
-    left:  50px;
+    left:  5%;
 }
 
 
 
 body{
-    
-    overflow: auto ;
-    background: rgba(48,52,58,65);
+
+
+    background: url("../images/backnovo.svg") no-repeat fixed;
+    resize: both;
+    background-size: cover;
+    overflow: auto;
+
 
 }
 .centro{
 
-    height: auto;
+    height:800px;
     position: relative;
 
 
@@ -76,6 +85,7 @@ textarea{
     position: relative;
     margin:20px  40px;
     resize: none;
+
     padding-right: 190px;
     vertical-align: top;
     border: 2px transparent solid;
@@ -84,7 +94,9 @@ textarea{
     color: #dddddd;
     outline: none;
     font-family: 'Heebo', sans-serif;
-    font-size: x-large;
+    font-size: 2vw;
+
+
 }
 
 textarea:focus::placeholder{
@@ -99,11 +111,11 @@ textarea:focus::placeholder{
 .botoes{
     display: inline-block ;
     position: absolute;
-    top: 400px;
+    top: 500px;
+    width: 35%;
+    left: 12%;
 
-    left: 90px;
-
-    margin: 30px 30px;
+    margin: 30px 0;
     padding: 10px 10px;
     border-width: 0;
 
@@ -113,55 +125,57 @@ textarea:focus::placeholder{
 }
 .botao:hover{
 
-    border-radius: 0 10px 0 0;
-    background-color: #dddddd;
-    border-bottom-width: 5px;
-
-    border-bottom-color: #666666;
+    border-radius: 0 50px 5px 0;
+    background-color: #555555 ;
+    border-bottom-color: #3B444B  ;
     cursor: pointer;
-    transform: skewY(1deg);
-
-
-
-
-
+    transform: skewY(0.9deg);
+    letter-spacing:0.1mm;
+    text-decoration: blink;
+    transition: 0.5s;
+    box-shadow: 10px -8px 0.4em #333333  ;
 
 }
 
 .botao{
     display: inline-block;
-    padding: 30px 60px;
-    margin: 30px 30px;
-    margin-left: 60px;
+    padding: 4% 2%;
+    margin:3% 3%;
     border-radius: 0 0 0 15px;
-    font-family: 'Questrial', sans-serif;
-    font-size: x-large;
-    color: #666666;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1vw;
+    color: ghostwhite;
     font-weight: bolder;
     transition: 0.2s;
-
+    width: 30%;
+    background: #333333 ;
+    border-width: 0;
 
 }
 #entrada:focus::placeholder,#saida:focus::placeholder,#entrada:hover::placeholder{
     color: transparent;
     transition-delay: 1s;
+
 }
 #entrada:hover,#entrada:focus{
     transform: scale(105%);
 
 
-    background-color: #3B444B ;
+
+    background-color: #121212ff ;
 
 }
 
 #entrada{
-    padding: 60px 30px;
-
+    padding: 5% 5%;
+    width: 80%;
     margin-left: 30px;
     transform-style: initial ;
     transition-duration: 1s;
     background-color: transparent;
+
     color: white;
+    height: 400px;
 
 
 }
@@ -191,9 +205,10 @@ textarea:focus::placeholder{
 
 }
 .div-saida:focus,.div-saida:hover{
-    background-color: #3B444B;
-    background-blend-mode: overlay;
+   /* background: #121212ff;*/
+    background-blend-mode: hard-light   ;
     transform: scale(102%);
+
 
 }
 
@@ -201,10 +216,10 @@ textarea:focus::placeholder{
     display: inline-block;
     vertical-align: top;
     position: relative;
-    left:100px;
+    left:3%;
     overflow: hidden;
-    width: 800px;
-    height: auto;
+    width: 49%;
+    height: 20%;
 
     margin-bottom: 10px;
 }
@@ -212,14 +227,15 @@ textarea:focus::placeholder{
     overflow-y: auto;
     overflow-wrap: break-word;
     display: inline-block;
-    position:absolute;
+    position:relative;
     padding: 40px 60px;
-    left: 1050px;
+    left:3%;
     top: 5px;
-    width: 770px;
+    width: 40%;
     height: 650px;
-
-    background: #22272c no-repeat center;
+    filter: grayscale(1%);
+    background: url("../images/empty.svg")center no-repeat;
+    background-size: 80% 80%    ;
     background-blend-mode: soft-light;
     box-sizing: border-box;
     margin-bottom: 10px;
@@ -231,11 +247,11 @@ textarea:focus::placeholder{
 }
 .h1{
     border-width: 2px;
-    border-color:red;
+
     font-family: 'Heebo', sans-serif;
-    font-size: x-large;
+    font-size: 2vw;
     color:white ;
-    max-width: 750px;
+
     font-palette: light;
 
 }
@@ -258,6 +274,382 @@ textarea:focus::placeholder{
     -webkit-border-radius: 6px;
 }
 
-@media{
+@media screen and (max-width: 425px ) {
+    header {
+        height: 150px;
+    }
+    h1 img{
 
+        left:  60px;
+        width: 15%;
+        height: 35%;
+    }
+
+    html{
+       height: 100%;
+   }
+    nav{
+        position: relative;
+        top: 50px;
+
+        float: right;
+        width: 400px;
+        height: 80px;
+
+
+    }
+    ul{
+        width: 100px;
+        height: 60px;
+        float: right;
+        display: flex ;
+        flex-direction:column  ;
+    }
+    ul li{
+        font-size: 15px;
+        float: right;
+
+        margin: 5% 0;
+        padding: 0 0;
+
+    }
+
+    .centro{
+
+        height:100%;
+        position: relative;
+
+
+        margin: 0 auto;
+        box-sizing: border-box;
+
+
+    }
+
+
+    .div-entrada{
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        left:5%;
+        overflow: hidden;
+        width: 90%;
+        height: 50%;
+
+        margin-bottom: 10px;
+    }
+
+    textarea{
+        width: 90%;
+
+
+    }
+    #entrada{
+        padding: 10px 10px;
+        width: 80%;
+        height: 200px;
+        background: #333333 ;
+    }
+
+
+    .div-saida {
+
+        left:10%;
+        top: 70px;
+        width: 80%;
+        height: 200px;
+        padding: 20px 30px;
+
+
+    }
+    .botoes{
+        display: inline-block ;
+        position: absolute;
+        top: 230px;
+
+        width: 80%;
+        float: left;
+        margin: 30px 0;
+        padding: 0 0;
+        border-width: 0;
+        left: 50px;
+
+
+
+    }
+    .botao{
+
+        width: 40%;
+        display: inline-block;
+        padding: 15px;
+        margin: 10px 10px;
+        border-radius: 0 0 0 15px;
+        font-family: 'Questrial', sans-serif;
+        font-size: 1.5vw;
+        color: #666666;
+        font-weight: bolder;
+        transition: 0.2s;
+        ;
+
+
+    }
+
+    body{
+        height: 100%;
+
+    }
+}
+@media screen and (max-width: 767px ) {
+    header {
+        height: 150px;
+    }
+    h1 img{
+
+        left:  60px;
+        width: 15%;
+        height: 35%;
+    }
+
+    html{
+        height: 100%;
+    }
+    nav{
+        position: relative;
+        top: 50px;
+
+        float: right;
+        width: 400px;
+        height: 80px;
+
+
+    }
+    ul{
+        width: 100px;
+        height: 60px;
+        float: right;
+        display: flex ;
+        flex-direction:column  ;
+    }
+    ul li{
+        font-size: 15px;
+        float: right;
+
+        margin: 5% 0;
+        padding: 0 0;
+
+    }
+
+    .centro{
+
+        height:100%;
+        position: relative;
+
+
+        margin: 0 auto;
+        box-sizing: border-box;
+
+
+    }
+
+
+    .div-entrada{
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        left:5%;
+        overflow: hidden;
+        width: 90%;
+        height: 50%;
+
+        margin-bottom: 10px;
+    }
+
+    textarea{
+        width: 90%;
+
+
+    }
+    #entrada{
+        padding: 10px 10px;
+        width: 80%;
+        height: 200px;
+        background: #333333 ;
+    }
+
+
+    .div-saida {
+
+        left:10%;
+        top: 70px;
+        width: 80%;
+        height: 200px;
+        padding: 20px 30px;
+
+
+    }
+    .botoes{
+        display: inline-block ;
+        position: absolute;
+        top: 230px;
+
+        width: 80%;
+        float: left;
+        margin: 30px 0;
+        padding: 0 0;
+        border-width: 0;
+        left: 50px;
+
+
+
+    }
+    .botao{
+
+        width: 40%;
+        display: inline-block;
+        padding: 15px;
+        margin: 10px 10px;
+        border-radius: 0 0 0 15px;
+        font-family: 'Questrial', sans-serif;
+        font-size: 1.5vw;
+        color: lightgray;
+        font-weight: bolder;
+        transition: 0.2s;
+
+
+
+
+    }
+
+    body{
+        height: 100%;
+
+    }
+}
+
+@media screen and (min-width:768px ) and (max-width:1023px ) {
+    header {
+        height: 150px;
+    }
+    h1 img{
+
+        left:  60px;
+        width: 8%;
+        height: 35%;
+    }
+
+    html{
+        height: 938px;
+    }
+    nav{
+        position: relative;
+        top: 50px;
+
+        float: right;
+        width: 400px;
+        height: 80px;
+
+
+    }
+    ul{
+        width: 100px;
+        height: 60px;
+        float: right;
+        display: flex ;
+        flex-direction:row-reverse ;
+        margin-right: 50px;
+    }
+    ul li{
+
+        float: right;
+
+        margin: 5% 20%;
+        padding: 0 0;
+
+    }
+
+    .centro{
+
+        height:100%;
+        position: relative;
+
+
+        margin: 0 auto;
+        box-sizing: border-box;
+
+
+    }
+
+
+    .div-entrada{
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        left:5%;
+        overflow: hidden;
+        width: 100%;
+        height: 50%;
+
+        margin-bottom: 10px;
+    }
+
+    textarea{
+        width: 90%;
+
+
+    }
+    #entrada{
+        padding: 10px 10px;
+        width: 80%;
+        height: 200px;
+        background: #333333 ;
+
+    }
+
+
+    .div-saida {
+
+        left:10%;
+        top: 70px;
+        width: 83%;
+        height: 200px;
+        padding: 20px 30px;
+
+
+    }
+    .botoes{
+        display: inline-block ;
+        position: absolute;
+        top: 270px;
+
+        width: 80%;
+        float: left;
+        margin: auto 10px ;
+        padding: 0 0;
+        border-width: 0;
+        left: 100px;
+
+
+
+    }
+    .botao{
+
+        width: 40%;
+        display: inline-block;
+        padding: 20px;
+        margin: auto 10px ;
+        border-radius: 0 0 0 15px;
+        font-family: 'Questrial', sans-serif;
+        font-size: 1.5vw;
+        color: lightgray;
+        font-weight: bolder;
+        transition: 0.2s;
+    ;
+
+
+    }
+
+    body{
+        height: 100%;
+
+    }
 }

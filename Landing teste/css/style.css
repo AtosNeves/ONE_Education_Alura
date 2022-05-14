@@ -498,7 +498,7 @@ textarea{
     margin-top: 2%;
     margin-right: 0;
     width: 93% ;
-    height: 33%;
+    height: 34%;
     overflow-y: auto;
 
     border: 1px solid lightgrey ;
@@ -585,7 +585,7 @@ footer li{
     background: url("https://img.icons8.com/ios-glyphs/344/ffffff/linkedin.png") no-repeat;
     background-size: contain;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
     footer, header{
         position:relative;
         height: 500px;
