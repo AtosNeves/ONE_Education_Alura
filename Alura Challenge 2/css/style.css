@@ -109,7 +109,7 @@ a:visited{
     transform: translateX(-50px);
     }
     to{
-        transform:translateX(10px);
+        transform:translateX(0px);
     }
     
 }

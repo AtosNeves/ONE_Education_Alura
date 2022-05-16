@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="JavaScript">
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/images/backnovo.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 1/images/backnovo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/forca.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/alura-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/background.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/gallow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/js/apagarLetra.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/images/5785548.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/images/background.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/js/criptografia.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/js/criptografia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 1/js/descriptografia.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 1/js/descriptografia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Landing teste/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Landing teste/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/forca.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/forca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/js/apagarLetra.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/js/apagarLetra.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/atos/Documentos/ONE Education Alura/Alura Challenge 2/css",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/atos/Documentos/ONE Education Alura/Alura Challenge 2/css&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Alura Challenge 2/css" />
@@ -128,7 +114,10 @@
       <workItem from="1651750651376" duration="7575000" />
       <workItem from="1651853357970" duration="1368000" />
       <workItem from="1652382638051" duration="4709000" />
-      <workItem from="1652439566999" duration="28304000" />
+      <workItem from="1652439566999" duration="31664000" />
+      <workItem from="1652496233157" duration="603000" />
+      <workItem from="1652531052160" duration="4814000" />
+      <workItem from="1652713916174" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -340,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651326138309</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="JavaScript">
+      <created>1652492190734</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1652492190734</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
