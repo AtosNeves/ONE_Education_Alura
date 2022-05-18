@@ -1,4 +1,4 @@
-
+var tentativas =6;
 
 var palavraLen=[];
 
@@ -214,6 +214,16 @@ const palavras = [
     }
 ];
 
+
+
+
+
+var botao = document.getElementsByClassName("botao-letra");
+
+console.log(botao);
+
+
+
 function palavrasSecretas(){
 
     const indicePalavra = parseInt(Math.random()*palavras.length);
@@ -224,10 +234,27 @@ function palavrasSecretas(){
     console.log(palavraSecreta);
     console.log(palavraCategoria);
 
+    for (const b of botao) {
+        //console.log("asda");
+            b.addEventListener('click', function onClick() {
+           // b.classList.add("clicado","errado");
+            b.classList.remove("botao-letra");
+            //console.log(b.value);
+            b.setAttribute("disabled","disabled");
+
+            //document.getElementById("c").disabled = true;
+        });
+    }
+
+
 
 }
 palavrasSecretas();
 function comecarJogo(){
+
+
+
+
 
     const categoria = document.getElementById("categoria-palavra");
     categoria.innerHTML = palavraCategoria;
@@ -243,6 +270,7 @@ function comecarJogo(){
             palavraSorteada.innerHTML = palavraSorteada.innerHTML+ "<div class='letras-entrada'>"+palavraLen[j]+"</div>";
         }
         else {
+
             palavraSorteada.innerHTML = palavraSorteada.innerHTML+ "<div class='letras-entrada'>"+palavraLen[j]+"</div>";
         }
 
@@ -250,4 +278,72 @@ function comecarJogo(){
 
 
 }
+
+function entradaLetras(letra, botao){
+
+    if (tentativas>0){
+
+        comparaListas(letra, botao);
+        comecarJogo();
+
+    }
+}
+
+function comparaListas(letra,botao) {
+
+
+    const indice = palavraSecreta.indexOf(letra);
+    //var t = botao.indexOf(letra);
+
+
+
+
+    if (indice < 0) {
+        var som2 = new Audio("./audio/lose.mp3");
+        som2.volume = 0.5;
+        som2.play();
+        tentativas = tentativas - 1;
+        console.log(letra);
+
+        var buti = document.getElementById(letra);
+        buti.classList.add("clicado","errado");
+
+        if (tentativas === 0) {
+            window.alert("falou");
+            //imagem do erro
+            // verificar se ainda tem tentativas
+        }
+    } else {
+        for (var i = 0; i < palavraSecreta.length; i++) {
+            console.log("adfgg");
+
+            if (palavraSecreta[i] === letra) {
+                console.log(letra);
+                var som = new Audio("./audio/win.mp3");
+                som.volume = 0.5;
+                som.play();
+                var but = document.getElementById(letra);
+                but.classList.add("clicado","certo");
+                palavraLen[i] = letra;
+
+
+
+            }
+
+        }
+    }
+
+        var win = true;
+        for (var j = 0; j < palavraSecreta.length; j++) {
+            if (palavraSecreta[j] !== palavraLen[j]) {
+                win = false;
+            }
+        }
+        if (win === true) {
+            console.log("win");
+            tentativas = 0;
+        }
+
+}
+
 comecarJogo();

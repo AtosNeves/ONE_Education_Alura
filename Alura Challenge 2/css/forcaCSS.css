@@ -1,21 +1,33 @@
 .forca-div{
     position: relative;
-    width: 70%;
+    width: 60%;
     height: 400px;
-    background: url("../images/forca.svg") no-repeat #16161a 10%;
+    background: url("../images/forca.svg") left no-repeat #636E72;
     background-size: contain;
     margin: 0 auto;
     border-radius: 20px;
+    animation: forca-div forwards 0.5s;
 
 
+}
+@keyframes forca-div {
+
+    from{
+        transform: translateY(-10px);
+
+
+    }
+    to{
+        transform:translateX(0px);
+    }
 }
 
 .palavras-jogo{
     position: relative;
-    width: 40%;
+    width: 60%;
     height: 85%;
-
-    left: 50%;
+    //background: black;
+    left: 30%;
     top: 7%;
 
 
@@ -32,24 +44,39 @@
     top: 40%;
     display: inline-block;
 
-    width: 20px;
+    width: 25px;
     text-align: center;
     border-bottom: 3px solid  #fffffe;
     padding: 3px;
     margin: 2px 6px;
     color: #fffffe;
+    animation: entrada 2s forwards;
+}
+
+@keyframes entrada {
+
+    to{
+        opacity: 100;
+    }
+
+    from{
+        opacity: 0;
+    }
 
 }
-#palavra-sorteada{
 
+
+
+#palavra-sorteada{
+    left: 70px;
     position: relative;
     width: fit-content;
     height: 150px;
-
-    margin: 50px auto;
+//background:red;
+    margin: 35px auto;
     top: 25%;
-
-
+    font-size: 3em;
+    font-family: 'Dosis', sans-serif;
 
 
 
@@ -59,7 +86,7 @@
     position: relative;
     width: 80%;
     height: 80px;
-
+    left: 60px;
     margin: 10px auto;
     padding-top: 1%;
     font-family: 'Dosis', sans-serif;
@@ -111,15 +138,15 @@
     border-color: red;
 }
 .botao-letra:focus{
-    transition: botao-clicado 1.5s;
-    animation: botao-clicado  .3s forwards;
+    transition: botao-clicado 0.5s;
+    animation: botao-clicado  .3s normal;
 }
-.botao-letra:visited{
+/*.botao-letra:visited{
 
     animation:duvida 2s forwards;
-    /*transform: scale(20%);*/
+    /*transform: scale(20%);
 }
-
+*/
 @keyframes botao-clicado {
 
     from {
@@ -135,12 +162,40 @@
 .certo{
     background:#21BF73;
     color: white;
+    animation: certoAnime 0.5s forwards;
 }
+@keyframes certoAnime {
+
+
+
+    from{
+        transform: translateY(-10px);
+    }
+
+}
+
 .errado{
     background:#E83A14;
     color: black;
+    animation: shake 0.1s forwards;
 }
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-2px, -2px, -2px);
+    }
 
+    20%, 80% {
+        transform: translate3d(9px, 2px, -2px);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, -4px, -4px);
+    }
+
+    40%, 60% {
+        transform: translate3d(0, 0, 0);
+    }
+}
 .clicado {
     /*background: #22272c;*/
     width: 100%;
