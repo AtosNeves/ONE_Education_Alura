@@ -303,13 +303,57 @@ function comparaListas(letra,botao) {
         som2.volume = 0.5;
         som2.play();
         tentativas = tentativas - 1;
+
+
+        switch (tentativas) {
+            case 5:
+                //console.log(tentativas);
+                let go = document.querySelector(".forca-div");
+                go.style.background="url('./images/forca1.svg')  left no-repeat #636E72";
+                go.style.backgroundSize = "contain";
+                break;
+            case 4 :
+                let g2 = document.querySelector(".forca-div");
+                g2.style.background="url('./images/forca2.svg')  left no-repeat #636E72";
+                g2.style.backgroundSize = "contain";
+                console.log(tentativas);
+                break;
+            case 3:
+                let g3 = document.querySelector(".forca-div");
+                g3.style.background="url('./images/forca3.svg')  left no-repeat #636E72";
+                g3.style.backgroundSize = "contain";
+                break;
+            case 2:
+                let g4 = document.querySelector(".forca-div");
+                g4.style.background="url('./images/forca4.svg')  left no-repeat #636E72";
+                g4.style.backgroundSize = "contain";
+                break;
+            case 1:
+                let g5 = document.querySelector(".forca-div");
+                g5.style.background="url('./images/forca5.svg')  left no-repeat #636E72";
+                g5.style.backgroundSize = "contain";
+                break;
+            case 0:
+                let g6 = document.querySelector(".forca-div");
+                g6.style.background="url('./images/forca6.svg')  left no-repeat #636E72";
+                g6.style.backgroundSize = "contain";
+
+                break;
+
+        }
+
+
+
+
+
         console.log(letra);
 
         var buti = document.getElementById(letra);
         buti.classList.add("clicado","errado");
 
         if (tentativas === 0) {
-            window.alert("falou");
+
+            //window.alert("falou");
             //imagem do erro
             // verificar se ainda tem tentativas
         }
@@ -345,5 +389,9 @@ function comparaListas(letra,botao) {
         }
 
 }
-
+function sleep(ms) {
+    return new Promise((resolve) => {
+        setTimeout(resolve, ms);
+    });
+}
 comecarJogo();
