@@ -2,13 +2,14 @@
 <html lang = "en">
 <head>
       <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
-      
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       
       <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/forcaCSS.css">
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/alertaLose.css">
       <meta charset = "UTF-8">
       <meta charset = "UTF-8">
       <title>Title</title>
@@ -17,7 +18,7 @@
       <div class="div-logo"><a href="index.html"></a></div>
 </header>
 <body>
-<div class="forca-div">
+<div id="forca-div-id" class="forca-div">
       <div class="palavras-jogo">
       
 	    <div id="palavra-sorteada">
@@ -63,8 +64,25 @@
       </div>
 
 </div>
+
+
+
+
+
+
+
 <script src="./js/apagarLetra.js"></script>
 <script src="./js/palavras.js"></script>
+<div id="modal-final" class=alerta-div">
+      
+      <div class="imagem"></div>
+      <h1>OLOCO, tu é muito ruim, tu é doido!</h1>
+      <div class="botoes-alerta">
+	    <button class = "b-alerta" id="novamente" onclick="location.href='forca.html'"> Novamente falta css aqui
+	    </button>
+	    <button class = "b-alerta"  id="home" onclick="location.href='index.html'">Home falta css aqui </button>
+      </div>
+</div>
 </body>
 
 

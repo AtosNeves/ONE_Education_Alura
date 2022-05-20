@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="JavaScript">
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/audio/Cronograma-OracleONE_Portugues_Fase_2-Turma_2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca6.svg" afterDir="false" />
+    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Challenge 2">
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/alertaLose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/css/alertaLose.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/lose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/perdeu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/skul.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/skull.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/venceu.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/forca.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/forca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -126,6 +133,9 @@
       <workItem from="1652798106735" duration="16594000" />
       <workItem from="1652873320421" duration="3026000" />
       <workItem from="1652883682761" duration="13905000" />
+      <workItem from="1652931558967" duration="316000" />
+      <workItem from="1652957015507" duration="16299000" />
+      <workItem from="1652987908995" duration="4172000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -351,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652894640406</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Challenge 2">
+      <created>1652931868099</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1652931868099</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,6 +407,7 @@
     <MESSAGE value="Inicialização da página pessoal" />
     <MESSAGE value="Continuação da página pessoal" />
     <MESSAGE value="JavaScript" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaScript" />
+    <MESSAGE value="Challenge 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Challenge 2" />
   </component>
 </project>

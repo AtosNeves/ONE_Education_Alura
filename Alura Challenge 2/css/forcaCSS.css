@@ -1,14 +1,21 @@
 .forca-div{
+
     position: relative;
-    width: 60%;
+    width: 70%;
     height: 400px;
     background: url("../images/forca.svg") left no-repeat #636E72;
     background-size: contain;
-    margin: 0 auto;
+    //background-position: right 10px  ;
+    margin: 20px auto;
     border-radius: 20px;
     animation: forca-div forwards 0.5s;
+    border: 20px solid #636E72;
 
 
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 @keyframes forca-div {
 
@@ -202,4 +209,31 @@
     border-width: 0;
 
     border-radius: 10px;
+}
+.acabou{
+
+    background:#72757e ;
+
+
+}
+.acabou:hover{
+    transform: scale(1);
+}
+@keyframes venceu {
+    to{
+        background:url("../images/venceu.svg")  left no-repeat  #2cb67d ;
+        background-size: contain;
+        animation: 2s;
+        border-color: #2cb67d;
+
+    }
+}
+@keyframes perdeu {
+    to{
+        background:url("../images/perdeu.svg")  left no-repeat #2e0000 ;
+        background-size: contain;
+        animation: 2s;
+        border-color:#2e0000;
+
+    }
 }

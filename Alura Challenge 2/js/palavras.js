@@ -349,11 +349,42 @@ function comparaListas(letra,botao) {
         console.log(letra);
 
         var buti = document.getElementById(letra);
+
         buti.classList.add("clicado","errado");
 
         if (tentativas === 0) {
 
-            //window.alert("falou");
+
+            const but = document.getElementsByClassName("botao-letra");
+            for (const b of but) {
+                //console.log("asda");
+                //b.addEventListener('click', function onClick() {
+                     b.classList.add("clicado","acabou");
+                    //b.classList.remove("botao-letra");
+                    //console.log(b.value);
+                    b.disabled=true;
+
+
+                    //
+                //});
+            }
+            setTimeout(function(){
+                document.querySelector(".forca-div").style.animation ="perdeu 0.5s forwards";
+                //window.alert("falou");
+                //document.querySelector("#modal-final").style.visibility="visible";
+                console.log("Executed after 3 second");
+            }, 1500);
+
+
+            setTimeout(function(){
+                //document.querySelector(".forca-div").style.animation ="perdeu 0.5s forwards";
+                //window.alert("falou");
+                document.querySelector("#modal-final").style.animation=" aparecer 0.5s";
+                document.querySelector("#modal-final").style.visibility="visible";
+                console.log("Executed after 3 second");
+            }, 3000);
+
+
             //imagem do erro
             // verificar se ainda tem tentativas
         }
@@ -384,14 +415,19 @@ function comparaListas(letra,botao) {
             }
         }
         if (win === true) {
+            document.querySelector(".forca-div").style.animation ="venceu 0.5s forwards";
+            setTimeout(function(){
+
+                //window.alert("falou");
+
+               document.querySelector("#modal-final").style.visibility="visible";
+                //console.log("Executed after 3 second");
+            }, 3000);
+
             console.log("win");
             tentativas = 0;
         }
 
 }
-function sleep(ms) {
-    return new Promise((resolve) => {
-        setTimeout(resolve, ms);
-    });
-}
+
 comecarJogo();
