@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Challenge 2">
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/alertaLose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/css/alertaLose.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/lose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/perdeu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/skul.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/skull.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/venceu.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/forca.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/forca.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/forca6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/forca6.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alura Challenge 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +120,8 @@
       <workItem from="1652931558967" duration="316000" />
       <workItem from="1652957015507" duration="16299000" />
       <workItem from="1652987908995" duration="4172000" />
+      <workItem from="1653054621453" duration="1887000" />
+      <workItem from="1653150670004" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -368,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652931868099</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Challenge 2">
+      <created>1653054637231</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1653054637231</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
