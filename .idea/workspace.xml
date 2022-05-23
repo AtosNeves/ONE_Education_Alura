@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Challenge 2">
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/forca.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/forca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/js/apagarLetra.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/js/listaPalavras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,7 @@
     &quot;last_opened_file_path&quot;: &quot;/home/atos/Documentos/ONE Education Alura/Alura Challenge 2/js&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -121,7 +124,9 @@
       <workItem from="1652957015507" duration="16299000" />
       <workItem from="1652987908995" duration="4172000" />
       <workItem from="1653054621453" duration="1887000" />
-      <workItem from="1653150670004" duration="1056000" />
+      <workItem from="1653150670004" duration="4843000" />
+      <workItem from="1653232687591" duration="314000" />
+      <workItem from="1653264475183" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -361,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653054637231</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Challenge 2">
+      <created>1653169547517</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1653169547517</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,5 +414,9 @@
     <MESSAGE value="JavaScript" />
     <MESSAGE value="Challenge 2" />
     <option name="LAST_COMMIT_MESSAGE" value="Challenge 2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
