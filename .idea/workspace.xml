@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Challenge 2">
-      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/audio/ha.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/audio/loseFinal.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/audio/winFinal.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/Green to Blue UI Colors Color Palette - color-hex.com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/win.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/winModal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/js/adcionar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/css/alertaLose.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/css/alertaLose.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alura Challenge 2/forca.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/forca.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/js/apagarLetra.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/js/listaPalavras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/perdeu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/perdeu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -127,6 +137,7 @@
       <workItem from="1653150670004" duration="4843000" />
       <workItem from="1653232687591" duration="314000" />
       <workItem from="1653264475183" duration="3000" />
+      <workItem from="1653346783743" duration="14095000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>

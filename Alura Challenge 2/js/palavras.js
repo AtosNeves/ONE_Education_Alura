@@ -159,6 +159,9 @@ function comparaListas(letra,botao) {
                     //
                 //});
             }
+            var somFim = new Audio("./audio/loseFinal.mp3");
+            somFim.volume = 1;
+            somFim.play();
             setTimeout(function(){
                 document.querySelector(".forca-div").style.animation ="perdeu 0.5s forwards";
                 //window.alert("falou");
@@ -188,6 +191,7 @@ function comparaListas(letra,botao) {
                 var som = new Audio("./audio/win.mp3");
                 som.volume = 0.5;
                 som.play();
+
                 var but = document.getElementById(letra);
                 but.classList.add("clicado","certo");
                 palavraLen[i] = letra;
@@ -206,12 +210,16 @@ function comparaListas(letra,botao) {
             }
         }
         if (win === true) {
+            var somWin = new Audio("./audio/winFinal.mp3");
+            somWin.volume = 0.5;
+            somWin.play();
+
             document.querySelector(".forca-div").style.animation ="venceu 0.5s forwards";
             setTimeout(function(){
 
                 //window.alert("falou");
 
-               document.querySelector("#modal-final").style.visibility="visible";
+               document.querySelector("#modal-final-vitoria").style.visibility="visible";
                 //console.log("Executed after 3 second");
             }, 3000);
 
