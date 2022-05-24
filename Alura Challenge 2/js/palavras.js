@@ -52,7 +52,7 @@ function comecarJogo(){
 
     const palavraSorteada = document.getElementById("palavra-sorteada");
     palavraSorteada.innerHTML = "";
-
+    console.log(palavras);
     for(let j = 0; j < palavraSecreta.length;j++){
 
         if (palavraLen[j]===undefined){

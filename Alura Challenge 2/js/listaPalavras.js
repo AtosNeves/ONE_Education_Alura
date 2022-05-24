@@ -1,5 +1,5 @@
 
-const palavras = [
+var palavras = [
     palavra001 = {
         nome: "IRLANDA",
         categoria:"LUGARES"
