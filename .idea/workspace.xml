@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Challenge 2">
+    <list default="true" id="4262e12a-3e4c-49f6-a07b-458134c4fc31" name="Changes" comment="Finalização">
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/2223.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/images/2223.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alura Challenge 2/js/imagem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/css/alertaLose.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/css/alertaLose.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/css/forcaCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alura Challenge 2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/forca.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/forca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/Green to Blue UI Colors Color Palette - color-hex.com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/alura-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/images/alura-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/images/background.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alura Challenge 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" beforeDir="false" afterPath="$PROJECT_DIR$/Alura Challenge 2/js/palavras.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +135,9 @@
       <workItem from="1653264475183" duration="3000" />
       <workItem from="1653346783743" duration="25094000" />
       <workItem from="1653393263866" duration="1313000" />
-      <workItem from="1653479948452" duration="3655000" />
+      <workItem from="1653479948452" duration="7348000" />
+      <workItem from="1653514805316" duration="1009000" />
+      <workItem from="1653515822688" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit">
       <created>1649545275135</created>
@@ -390,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653371267748</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Finalização">
+      <created>1653510425301</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1653510425301</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +445,8 @@
     <MESSAGE value="Continuação da página pessoal" />
     <MESSAGE value="JavaScript" />
     <MESSAGE value="Challenge 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Challenge 2" />
+    <MESSAGE value="Finalização" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
